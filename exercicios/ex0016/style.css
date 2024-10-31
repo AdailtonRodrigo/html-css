@@ -1,0 +1,26 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(90deg, #D6B98F, #9fa092 ); /*Cria um degradê*/
+}
+main{
+    background-color: white; /*Altera cor do fundo*/
+    border-radius: 10px; /*Cria bordas*/
+    box-shadow: 6px 6px 10px #998466d3; /*Adiciona efeitos de sombra em volta de um elemento (ofset-x | ofset-y | blur-radius | color)*/
+    margin: auto; /*Define a área de margim nos quatro lados do elemento*/
+    padding: 10px; /*Define uma distância entre o conteúdo e de um elemento e suas bordas*/
+    width: 600px; /*Determina a largura da área de conteúdo de um elemento*/
+}
+h1{
+    color: #8F705B; /*Define a cor do texto*/
+    text-align: center; /*Define o alinhamento horizontal do conteúdo*/
+    text-shadow: 2px 2px 1px #745b4a83; /*Adiciona efeitos de sombra em volta de um elemento (ofset-x | ofset-y | blur-radius | color)*/
+}
+h2{
+    color: #8b8b80;
+}
+p{
+    text-align: justify;
+}

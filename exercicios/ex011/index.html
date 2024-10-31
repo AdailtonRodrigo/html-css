@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mìdias em HTML5</title>
+    <style>
+        body{
+            background-color: rgb(2, 0, 10);
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body> 
+    <h1>Imagem </h1>
+     <!--<p>Tente abrir esse site em vários dispositivos diferentes.
+
+     </p>-->
+    <picture>  
+        <source media="(max-width:750px)" srcset="imagens/image-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/image-m.png" type="image/png">
+        <img src="imagens/image-g.png" alt="a Imagem Flexível Funciona" >
+        </picture>
+    <h2>Audio</h2>
+    <audio witdth="250" preload="metadata" controls loop>
+            
+        <source src="audio/audio-1.mp3" type="audio/mpeg">
+        <source src="audio/audio-3.wav.wav" type="audio/wav">
+        <source src="audio/audio-2.ogg.ogg" type="audio/ogg">
+    </audio>
+    <p>Seu navegador não suporta áudio <br>Baixar áudio. <a href="audio/audio-1.mp3" download="audio-1.mp3" type="audio/mp3">download</a></p>
+    <h2>Vídeo</h2>
+   <video width="700" poster="video/poster-v.jpg" controls loop>
+        <source media="(max-width:750px)" srcset="video/poster-v.jpg" type="video/mp4">
+        <source src="video/video-2.mp4" type="video/mp4">
+    </video>
+     <p>Infezlimente seu navegador não conseguiu carregar o vídeo <a href="video/video-2.mp4" download="video-2.mp4" type="video/mp4">Baixar Vídeo</a></p>
+     <h1>Video incorporado</h1>
+     <iframe width="700" height="415" src="https://www.youtube.com/embed/plffo_TlTYQ?si=HdDY3TOdc6YkBqDe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

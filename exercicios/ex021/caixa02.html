@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping de Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        h1 {
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.185);
+        }
+        header {
+            background-color: white;
+            padding: 5px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 2px rgb(83, 83, 83);
+        }
+        nav {
+            background-color: rgb(116, 116, 116);
+            padding: 2px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 20px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            background-color: blue;
+        }
+        main {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+
+        }
+        article {
+            background-color: rgb(206, 206, 206);
+        }
+        article > aside {
+            background-color: rgb(145, 145, 145);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 1px;
+            margin: 0px;
+            text-align: center;
+        }
+        footer > p {
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header> 
+    <main>
+        <section id="assuntos">
+            <p>Assunto</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre investimentos</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus doloribus voluptatum voluptatem. Suscipit maxime laboriosam, ratione voluptatem expedita dignissimos debitis cum! Optio praesentium dolor a nostrum, assumenda libero vero iure?</p>
+                <aside>
+                    <p>Artigo Escrito por Rodrigues</p>
+                </aside>
+            </article>
+        </section>
+    </main>   
+    <footer>
+        <p>Desenvolvido por Rodrigues</p>
+    </footer>   
+</body>
+</html>
