@@ -3,22 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundos</title>
+    <title>Fundo Fixo</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-repeat: no-repeat;
             background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shorthand - background
+            colo> image > position > repeat > [size] > attachment
+            */
+        
+            background: black url(imagens/wallpaper002.jpg) center top no-repeat fixed;
             background-size: cover;
         }
-        
+
         main{
             background-color: white;
             border: 1px solid black;
             border-radius: 15px;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.307);
