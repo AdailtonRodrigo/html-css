@@ -1,1 +1,26 @@
 @charset "UTF-8" ;
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.normal {
+   
+}
+
+.imagem {
+    background-color: rgba(0, 0, 0, 0.611);
+    color: white;
+    width: 300px;
+}
