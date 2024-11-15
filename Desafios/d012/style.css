@@ -19,8 +19,19 @@ a {
    
 }
 
-.imagem {
-    background-color: rgba(0, 0, 0, 0.611);
+.imagem > p{
+    background-color: rgba(0, 0, 0, 0.332);
     color: white;
     width: 300px;
+}
+#img01 {
+    background-image:url(imagens/background001.jpg);
+}
+#img02 {
+    background-image: url(imagens/background002.jpg);
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
 }
