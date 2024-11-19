@@ -9,31 +9,54 @@ html , body {
     min-height: 100vh;
     background-color: darkgray;
 }
+
 header {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 20px;
 }
-a {
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
     color: white;
     text-decoration: none;
+    font-weight: bolder;
 }
 
-.normal {
-   
+header a:hover , footer a:hover {
+    text-decoration: underline;
 }
 
-.imagem > p{
-    background-color: rgba(0, 0, 0, 0.332);
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+
+}
+
+section.normal {
+   background-color: white;
+   color: black;
+}
+
+section.imagem {
+    background-color: rgb(58, 57, 57);
     color: white;
-    width: 300px;
 }
-#img01 {
-    background-image:url(imagens/background001.jpg);
-}
-#img02 {
-    background-image: url(imagens/background002.jpg);
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.222);
+    color: white;
+    width: 400px;
 }
 footer {
     background-color: black;
