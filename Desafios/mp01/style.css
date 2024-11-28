@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html , body {
+    min-height: 100vh;
+    background-color: #C5CCD9;
+}
+
+header {
+    background-color: #070A40;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-size: 10vh;
+}
+
+header {
+    padding-bottom: 50px;
+}
