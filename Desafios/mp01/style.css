@@ -44,4 +44,10 @@ section {
 }
 section.normal {
     background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: #1D2173;
+    color: white;
 }
