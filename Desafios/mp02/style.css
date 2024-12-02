@@ -8,11 +8,11 @@
 
 html,body {
     min-height: 100vh;
-    background-color: #C7FFED;
+    background-color: #89D99D;
 }
 
 header {
-    background-color: #023535;
+    background-color: #122140;
     color: white;
     text-align: center;
     font-size: 1em;
@@ -23,4 +23,11 @@ header > h1 {
 
 header > p {
     padding-bottom: 50px;
+}
+
+header a , footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+
 }
