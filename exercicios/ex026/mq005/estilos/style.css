@@ -20,10 +20,10 @@ header > h1 {
 }
 
 span#burguer {
-    background-color: rgb(48, 48, 48);
+    background-color: gray(48, 48, 48);
     color: white;
     display: block;
-    text-align: center;
+    text-align: left;
     padding: 10px;
     cursor: pointer;
 }
@@ -37,6 +37,7 @@ menu {
 }
 menu > ul {
     list-style-type: none;
+    padding-bottom: 2px;
 }
 menu > ul > li > a {
     display: block;
@@ -46,10 +47,12 @@ menu > ul > li > a {
     background-color: rgb(66, 66, 66);  
     color: white;
     border: 2px solid gray;
+    border-radius: 10px;
 }
 
 menu > ul > li > a:hover {
     background-color: gray;
+    box-shadow: 2px 2px 2px rgba(255, 251, 251, 0.274);
 }
 
 main {
