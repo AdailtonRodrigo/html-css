@@ -12,8 +12,48 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
-        body {
-            background-color: rgb(218, 218, 245);
+        body , html {
+            height: 100vh;
+            width: 100vw;
+            background-image: linear-gradient( -45deg, #023E73 , #044159, #23b8f3 );
+        }
+
+        header > h1 {
+           text-align: center;
+           color: white;
+           margin-top: 20px; 
+           margin-bottom: 20px;
+        }
+        
+        main {
+            width: 70vw;
+            margin: auto;
+            border: solid 2px white ;
+            border-radius: 15px;
+            background-color: white;
+            
+        } 
+        main > h2 {
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        main > ul {
+            margin: 20px;
+        }
+
+        main > ul > li {
+         margin: 5px;
+        }
+
+        main > ul > li > a {
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: #6C7D85;
+            
         }
 
     </style>
@@ -28,9 +68,11 @@
     </header>
 
     <main>
-        <ul>
-            <li>
-                <a href="Autoboat/">Autoboat</a>
+        <h2>Bom Guiada</h2>
+        <hr>
+        <ul >
+            <li type="none">
+                <a href="Autoboat/"><abbr title="Placa Auto Boat">Autoboat</abbr></a>
             </li>
             <li>
                 <a href="Bluetooth%20Externo%20485-v2I3.html">Bluetooth Externo 485-v2I3</a>
@@ -74,7 +116,7 @@
         </ul>
     </main>
     <footer>
-        <p>&copy;<a href="https://ecxus.com.br/">Ecxus Tecnologia</a></p>
+       &copy;<a href="https://ecxus.com.br/">Ecxus Tecnologia</a>
     </footer>
 </body>
 
